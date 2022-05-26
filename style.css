@@ -39,14 +39,14 @@ header{
     background-position: center, bottom;
 }
 
-#body{
+.body{
     height: 99vh;
     width: 99vw;
     position: relative;
     
 }
 
-#content{
+.content{
     border-radius: 20px;
     height: 520px;
     width: 935px;
@@ -57,7 +57,7 @@ header{
     transform: translate(-50%, -50%);
 }
 
-#slides{
+.slides{
     display: flex;
     width: 800%;
     height: 100%;
@@ -76,7 +76,7 @@ input{
     transition: 0.6s;
 }
 
-#navgation{
+.navgation{
     position: absolute;
     left: 50%;
     transform: translate(-50%);
@@ -117,7 +117,7 @@ input{
 }
 
 #slide5:checked ~ .s1{
-    margin-left: -57%;
+    margin-left: -56%;
 }
 
 #slide6:checked ~ .s1{
