@@ -1,3 +1,2 @@
-let slide = document.getElementById("label#slide1")
+let barra = document.getElementsByName("input#slide")
 
-if slide.cheked == true
