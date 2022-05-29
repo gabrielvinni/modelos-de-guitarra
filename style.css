@@ -13,7 +13,7 @@
 }
 
 body{
-    background-color: white;
+    background-color: rgb(241, 241, 241);
     font-family: var(--font2);
 }
 
@@ -32,7 +32,7 @@ p{
 
 header{
     margin: auto;
-    min-height: 80vh;
+    min-height: 90vh;
     background-image: url(imagem/guitarra-fundo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,13 +43,12 @@ header{
     height: 99vh;
     width: 99vw;
     position: relative;
-    
 }
 
 .content{
     border-radius: 20px;
-    height: 520px;
-    width: 935px;
+    max-height: 520px;
+    max-width: 935px;
     overflow: hidden;
     position: absolute;
     top: 50%;
@@ -60,7 +59,7 @@ header{
 .slides{
     display: flex;
     width: 800%;
-    height: 100%;
+    max-height: 100%;
 }
 
 input{
@@ -73,7 +72,7 @@ input{
 
 .slide{
     width: 14%;
-    transition: 0.6s;
+    transition: 0.5s;
 }
 
 .navgation{
@@ -100,30 +99,65 @@ input{
     background-color: black;
 }
 
-#slide1:checked ~ .s1{
+#slide1:checked ~ .content .slides .s1{
     margin-left: 0;
 }
 
-#slide2:checked ~ .s1{
+#slide2:checked ~ .content .slides .s1{
     margin-left: -14%;
 }
 
-#slide3:checked ~ .s1{
+#slide3:checked ~ .content .slides .s1{
     margin-left: -28%;
 }
 
-#slide4:checked ~ .s1{
+#slide4:checked ~ .content .slides .s1{
     margin-left: -42%;
 }
 
-#slide5:checked ~ .s1{
+#slide5:checked ~ .content .slides .s1{
     margin-left: -56%;
 }
 
-#slide6:checked ~ .s1{
+#slide6:checked ~ .content .slides .s1{
     margin-left: -70.2%;
 }
 
-#slide7:checked ~ .s1{
+#slide7:checked ~ .content .slides .s1{
     margin-left: -84%;
+}
+
+#slide1:checked ~ .navgation #b1{
+    background-color: black;
+    color: white;
+}
+
+#slide2:checked ~ .navgation #b2{
+    background-color: black;
+    color: white;
+}
+
+#slide3:checked ~ .navgation #b3{
+    background-color: black;
+    color: white;
+}
+
+#slide4:checked ~ .navgation #b4{
+    background-color: black;
+    color: white;
+}
+
+#slide5:checked ~ .navgation #b5{
+    background-color: black;
+    color: white;
+}
+
+#slide6:checked ~ .navgation #b6{
+    background-color: black;
+    color: white;
+}
+
+#slide7:checked ~ .navgation #b7{
+    background-color: black;
+    color: white;
 }
