@@ -63,7 +63,7 @@ header{
 }
 
 input{
-    display: none;
+    
 }
 
 .slide img{
@@ -97,6 +97,13 @@ input{
 .bar:hover{
     color: white;
     background-color: black;
+}
+
+#texto{
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    transform: translate(-50%);
 }
 
 #slide1:checked ~ .content .slides .s1{
