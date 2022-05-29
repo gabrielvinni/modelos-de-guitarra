@@ -63,7 +63,7 @@ header{
 }
 
 input{
-    
+    display: none;
 }
 
 .slide img{
@@ -99,11 +99,12 @@ input{
     background-color: black;
 }
 
-#texto{
-    position: absolute;
-    left: 50%;
-    top: 85%;
-    transform: translate(-50%);
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: var(--font2);
+    padding: 10px;
 }
 
 #slide1:checked ~ .content .slides .s1{
