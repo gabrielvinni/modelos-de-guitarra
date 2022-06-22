@@ -67,7 +67,8 @@ input{
 }
 
 .slide img{
-    width: 100vh;
+    width: 100%;
+    height: 100%;
 }
 
 .slide{
@@ -79,19 +80,22 @@ input{
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    top: 130px;
+    top: 45vh;
     display: flex;
+    max-width: 700px;
 }
 
 .bar{
     margin: 6px;
     padding: 5px 10px;
     border: 2px solid black;
+    background-color: white;
     text-align: center;
     border-radius: 8px;
     cursor: pointer;
     transition: .4s;
     font-weight: bold;
+    width: 100%;
 }
 
 .bar:hover{
